@@ -3,7 +3,7 @@ $name  = $_REQUEST["name"];
 $email = $_REQUEST["email"];
 $mobile   = $_REQUEST["mobile"];
 $msg   = $_REQUEST["msg"];
-$to    = "surjithctly@gmail.com";
+$to    = "kc@kctec.net";
 if (isset($email) && isset($name) && isset($msg)) {
     $subject = "$name sent you a message via Corkscrew";
 		$headers = "MIME-Version: 1.0" . "\r\n";
